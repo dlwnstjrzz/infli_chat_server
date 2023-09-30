@@ -10,7 +10,7 @@ app.use(cors());
 let users = [];
 let currentUser;
 const socketIO = require("socket.io")(http, {
-  origin: "http://localhost:3000",
+  origin: "https://infli-chat.vercel.app/",
   cors: {},
 });
 
